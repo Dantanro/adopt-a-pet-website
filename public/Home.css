@@ -1,0 +1,214 @@
+html{
+    background-color: #f9f5e6;
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium';
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5vw;
+    box-sizing: border-box;
+    z-index: 9999;
+    font-size: 1vw;
+    padding: 0;
+
+    background-color:#706555;
+    color: #333333;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+
+}
+header img{
+    padding-left: 10%;
+    height: 100%;
+}
+header p{
+    position: absolute;
+    left: 0;
+    font-size: 1.5vw;
+}
+
+nav{
+    position: fixed;
+    top: 0vw;
+    left: 0;
+    width: 8.5vw;
+    height: 100%;
+    background-color: #7ba079;
+    color: #a08c79;
+    overflow-y: auto;
+}
+nav ul{
+    position: absolute;
+    top: 4vw;
+    list-style: none;
+    padding: 1vw;
+}
+nav ul li{
+    position: relative;
+    margin-top: 55%;
+    text-align: left;
+    font-size: 1vw;
+}
+nav a{
+    color: #31271d;
+    font-size: 1vw;
+}
+
+main{
+    position: absolute;
+    top: 10%;
+    left: 8.5vw;
+    height: 85%;
+    width: 91%;
+    background-color: #f9f5e6 ;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2.5vw;
+    background-color: #706555;
+    text-align: center;
+    font-size: 1vw;
+    z-index: 9999;
+}
+
+footer a{
+    color: #332b22;
+}
+
+
+h1{
+    text-align: center;
+}
+#Contact{
+    text-align: center;
+    
+}
+
+#Kirry{
+    width: 27%;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 10%;
+}
+#Kirry2{
+    width: 27%;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+#Dog1{
+    width: 27%;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 10%;
+}
+.leftHome{
+    width: 70%;
+    padding-left: 1vw;
+}
+.rightHome{
+    width: 40%;
+}
+#HomeP{
+    text-align: left;
+    font-size: large;
+    line-height: 4;
+    font-family: 'Trebuchet MS', sans-serif;
+    padding-bottom: 3vw;
+}
+.Carelist{
+    text-align: left;
+    font-size: large;
+    line-height: 2;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+
+
+.pet_available{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1vw;
+    margin-left: 2vw;
+}
+.pet_list {
+    display: flex;
+}
+.pet {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    width: 300px;
+    padding: 1vw;
+    text-align: center;
+    margin-bottom: 3vw;
+}
+.pet_image {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.pet_info {
+    margin-top: 1vw;
+}
+
+.interested_button {
+    background-color: #7ba079;
+    color: #ffffff;
+    border: none;
+    padding: 0.5vw;
+    font-size: 1vw;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.interested_button:hover {
+    background-color: #5a7a5a;
+}
+#logout{
+    position: absolute;
+    top: 87%;
+    left: 50%;
+    font-size: 1vw;
+    color: #ffffff;
+    background-color: #da1c1c;
+    box-shadow: 0 0 0 0.3vw red;
+    padding: 1vw;
+}
+
+@media (max-width: 1300px) {
+
+}
+
+@media (max-width: 480px) {
+
+    body{
+        font-size: 10vw;
+    }
+    nav{
+        font-size: 13vw;
+    }
+    header{
+        font-size: 15vw;
+    }
+}

@@ -1,0 +1,150 @@
+        <main>
+            <h1>Give a dog/cat form</h1>
+            <form id="givePetForm" action="/addPet" method="POST">
+                Animal:
+                <br>
+                <label>
+                    <input type="radio" name="Animal" value="Cat">
+                    Cat
+                </label>
+                <label>
+                    <input type="radio" name="Animal" value="Dog">
+                    Dog
+                </label>
+                <br><br>
+
+                Breed:
+                <br>
+                <label>
+                    <input type="radio" name="Breed" value="Domestic Shorthair">
+                    Domestic Shorthair
+                </label>
+                <label>
+                    <input type="radio" name="Breed" value="American Shorthair">
+                    American Shorthair
+                </label>
+                <label>
+                    <input type="radio" name="Breed" value="Ragdoll">
+                    Ragdoll
+                </label>
+                <label>
+                    <input type="radio" name="Breed" value="Siamese">
+                    Siamese
+                </label>
+                <label>
+                    <input type="radio" name="Breed" value="Bengal">
+                    Bengal
+                </label>
+                <label>
+                    <input type="radio" name="Breed" value="Maine Coon">
+                    Maine Coon
+                </label>
+                <label>
+                    <input type="radio" name="Breed" value="Persian">
+                    Persian
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="Breed" value="French Bulldog">
+                    French Bulldog
+                </label>
+                <label>
+                    <input type="radio" name="Breed" value="Labrador Retriever">
+                    Labrador Retriever
+                </label>
+                <label>
+                    <input type="radio" name="Breed" value="Golden Retriever">
+                    Golden Retriever
+                </label>
+                <label>
+                    <input type="radio" name="Breed" value="German Shepherd Dog">
+                    German Shepherd Dog
+                </label>
+                <label>
+                    <input type="radio" name="Breed" value="Poodle">
+                    Poodle
+                </label>
+                <label>
+                    <input type="radio" name="Breed" value="Dachshund">
+                    Dachshund
+                </label>
+                <label>
+                    <input type="radio" name="Breed" value="Bulldog">
+                    Bulldog
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="Breed" value="Mix_breed">
+                    Mix breed
+                </label>
+                <br><br>
+
+                Age of Animal:
+                <label>
+                    <select name="Age" size="1">
+                        <option>Less then 1</option>
+                        <option>1 to 3</option>
+                        <option>4 to 7</option>
+                        <option>Older then 7</option>
+                        <option>Doesn't matter</option>
+                        </select>
+                </label>
+                <br><br>
+
+                Gender:
+                <label>
+                    <input type="radio" name="gender" value="male">
+                    male
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="female">
+                    female
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="Either">
+                    Either
+                </label>
+                <br><br>
+
+                Gets along with (select none if no need)
+                <br>
+                <label>
+                    <input type="checkbox" name="along_with" value="dogs">
+                    dogs
+                </label>
+                <label>
+                    <input type="checkbox" name="along_with" value="cats">
+                    cats
+                </label>
+                <label>
+                    <input type="checkbox" name="along_with" value="children">
+                    small children
+                </label>
+                <br><br>
+
+                <label>
+                    Extra comments
+                    <textarea name="comments"></textarea>
+                </label>
+                <br><br>
+
+                <label>
+                    Full name of owner
+                    <input type="text" name="name_of_owner">
+                </label>
+                <br><br>
+
+                <label>
+                    Email
+                    <input type="email" name="email">
+                </label>
+                <br><br>
+                
+
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+
+            </form>
+            <a id="logout" href="/logout">Logout</a>
+            <script src="Give_Away.js"></script>     
+        </main>
